@@ -1,5 +1,5 @@
 ###############################test demo
-CUDA_VISIBLE_DEVICES=1 python test.py --batch_size 200 --test_num 10 \
+CUDA_VISIBLE_DEVICES=1 python test.py --batch_size 200 --test_num 1000000 \
 --RFA_model_ckpt 'checkpoints/CIFAR10-RFA-FB-AF3-demo.pth' \
 "Clean()" \
 "PGDLinfAttack(model, eps=8/255, num_iters=100)" \
